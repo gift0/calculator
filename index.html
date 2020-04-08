@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = "icon" type="image/ico" href="image/GoldPhone.jpg"/>
+    <title>MGO | Calculator</title>
+    <link rel="stylesheet" href="css/cal.css">
+</head>
+<body>
+    <div class="calculator">
+    
+        <input type="text"  id="result" placeholder="0"/>
+    
+    <div class="keys">
+        <button type="button" class="operator"  value="+" onClick= "cal ('+')">+</button>
+        <button type="button" class="operator"  value="-" onClick= "cal ('-')">-</button>
+        <button type="button" class="operator"  value="*" onClick= "cal ('*')">&times;</button>
+        <button type="button" class="operator"  value="/" onClick= "cal ('/')">&divide;</button>
+            
+        <button type="button"  value="7" onclick= "cal ('7')">7</button>
+        <button type="button"  value="8" onclick= "cal ('8')">8</button>
+        <button type="button"  value="9" onClick= "cal ('9')">9</button>
+            
+        <button type="button"  value="4" onClick= "cal ('4')">4</button>
+        <button type="button"  value="5" onClick= "cal ('5')">5</button>
+        <button type="button"  value="6" onClick= "cal ('6')">6</button>
+
+        <button type="button"  value="1" onClick= "cal ('1')">1</button>
+        <button type="button"  value="2" onClick= "cal ('2')">2</button>
+        <button type="button"  value="3" onClick= "cal ('3')">3</button>
+            
+        <button type="button" value="0" onClick= "cal ('0')">0</button>
+        <button type="button" value="." onClick= "cal ('.')">.</button>
+        <button type="button" class="clear" value="AC" onClick= "clr ()">AC</button>
+        
+        <button type="button" class="equals-to" value="=" onClick="solve ()">=</button>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
